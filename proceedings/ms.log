@@ -1,0 +1,446 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.28)  13 DEC 2013 11:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ms.tex
+(./ms.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(./rmaa.cls
+Document Class: rmaa 2011/08/15 v3.26 RevMexAA article class
+Manuscript for referee
+Preprint option
+Proceedings option
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen105
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks15
+\extratabsurround=\skip45
+\backup@length=\skip46
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen108
+\lightrulewidth=\dimen109
+\cmidrulewidth=\dimen110
+\belowrulesep=\dimen111
+\belowbottomsep=\dimen112
+\aboverulesep=\dimen113
+\abovetopsep=\dimen114
+\cmidrulesep=\dimen115
+\cmidrulekern=\dimen116
+\defaultaddspace=\dimen117
+\@cmidla=\count90
+\@cmidlb=\count91
+\@aboverulesep=\dimen118
+\@belowrulesep=\dimen119
+\@thisruleclass=\count92
+\@lastruleclass=\count93
+\@thisrulewidth=\dimen120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\@parskip@default=\skip47
+\@@parskip@@default=\skip48
+\@parskip@stretch=\skip49
+\@@parskip@@stretch=\skip50
+\@parskip@shrink=\skip51
+\@@parskip@@shrink=\skip52
+\abovesectionskip=\skip53
+\belowsectionskip=\skip54
+\aboveparaskip=\skip55
+\belowparaskip=\skip56
+\@abovesectionskip@default=\skip57
+\@@abovesectionskip@@default=\skip58
+\@abovesectionskip@stretch=\skip59
+\@@abovesectionskip@@stretch=\skip60
+\@abovesectionskip@shrink=\skip61
+\@@abovesectionskip@@shrink=\skip62
+\@belowsectionskip@default=\skip63
+\@@belowsectionskip@@default=\skip64
+\@belowsectionskip@stretch=\skip65
+\@@belowsectionskip@@stretch=\skip66
+\@belowsectionskip@shrink=\skip67
+\@@belowsectionskip@@shrink=\skip68
+\@aboveparaskip@default=\skip69
+\@@aboveparaskip@@default=\skip70
+\@aboveparaskip@stretch=\skip71
+\@@aboveparaskip@@stretch=\skip72
+\@aboveparaskip@shrink=\skip73
+\@@aboveparaskip@@shrink=\skip74
+\@belowparaskip@default=\skip75
+\@@belowparaskip@@default=\skip76
+\@belowparaskip@stretch=\skip77
+\@@belowparaskip@@stretch=\skip78
+\@belowparaskip@shrink=\skip79
+\@@belowparaskip@@shrink=\skip80
+\@floatsep@default=\skip81
+\@@floatsep@@default=\skip82
+\@floatsep@stretch=\skip83
+\@@floatsep@@stretch=\skip84
+\@floatsep@shrink=\skip85
+\@@floatsep@@shrink=\skip86
+\@textfloatsep@default=\skip87
+\@@textfloatsep@@default=\skip88
+\@textfloatsep@stretch=\skip89
+\@@textfloatsep@@stretch=\skip90
+\@textfloatsep@shrink=\skip91
+\@@textfloatsep@@shrink=\skip92
+\@intextsep@default=\skip93
+\@@intextsep@@default=\skip94
+\@intextsep@stretch=\skip95
+\@@intextsep@@stretch=\skip96
+\@intextsep@shrink=\skip97
+\@@intextsep@@shrink=\skip98
+\@dblfloatsep@default=\skip99
+\@@dblfloatsep@@default=\skip100
+\@dblfloatsep@stretch=\skip101
+\@@dblfloatsep@@stretch=\skip102
+\@dblfloatsep@shrink=\skip103
+\@@dblfloatsep@@shrink=\skip104
+\@dbltextfloatsep@default=\skip105
+\@@dbltextfloatsep@@default=\skip106
+\@dbltextfloatsep@stretch=\skip107
+\@@dbltextfloatsep@@stretch=\skip108
+\@dbltextfloatsep@shrink=\skip109
+\@@dbltextfloatsep@@shrink=\skip110
+\@abovecaptionskip@default=\skip111
+\@@abovecaptionskip@@default=\skip112
+\@abovecaptionskip@stretch=\skip113
+\@@abovecaptionskip@@stretch=\skip114
+\@abovecaptionskip@shrink=\skip115
+\@@abovecaptionskip@@shrink=\skip116
+\@before@title@skip=\skip117
+\@before@author@skip=\skip118
+\@between@author@skip=\skip119
+\@before@abstract@skip=\skip120
+\@after@abstracthead@skip=\skip121
+\@between@abstract@skip=\skip122
+\@before@kwd@skip=\skip123
+\@before@dates@skip=\skip124
+\@@before@title@skip@default=\skip125
+\@@@before@title@skip@@default=\skip126
+\@@before@title@skip@stretch=\skip127
+\@@@before@title@skip@@stretch=\skip128
+\@@before@title@skip@shrink=\skip129
+\@@@before@title@skip@@shrink=\skip130
+\@@before@author@skip@default=\skip131
+\@@@before@author@skip@@default=\skip132
+\@@before@author@skip@stretch=\skip133
+\@@@before@author@skip@@stretch=\skip134
+\@@before@author@skip@shrink=\skip135
+\@@@before@author@skip@@shrink=\skip136
+\@@between@author@skip@default=\skip137
+\@@@between@author@skip@@default=\skip138
+\@@between@author@skip@stretch=\skip139
+\@@@between@author@skip@@stretch=\skip140
+\@@between@author@skip@shrink=\skip141
+\@@@between@author@skip@@shrink=\skip142
+\@@before@abstract@skip@default=\skip143
+\@@@before@abstract@skip@@default=\skip144
+\@@before@abstract@skip@stretch=\skip145
+\@@@before@abstract@skip@@stretch=\skip146
+\@@before@abstract@skip@shrink=\skip147
+\@@@before@abstract@skip@@shrink=\skip148
+\@@after@abstracthead@skip@default=\skip149
+\@@@after@abstracthead@skip@@default=\skip150
+\@@after@abstracthead@skip@stretch=\skip151
+\@@@after@abstracthead@skip@@stretch=\skip152
+\@@after@abstracthead@skip@shrink=\skip153
+\@@@after@abstracthead@skip@@shrink=\skip154
+\@@between@abstract@skip@default=\skip155
+\@@@between@abstract@skip@@default=\skip156
+\@@between@abstract@skip@stretch=\skip157
+\@@@between@abstract@skip@@stretch=\skip158
+\@@between@abstract@skip@shrink=\skip159
+\@@@between@abstract@skip@@shrink=\skip160
+\@@before@kwd@skip@default=\skip161
+\@@@before@kwd@skip@@default=\skip162
+\@@before@kwd@skip@stretch=\skip163
+\@@@before@kwd@skip@@stretch=\skip164
+\@@before@kwd@skip@shrink=\skip165
+\@@@before@kwd@skip@@shrink=\skip166
+\@@before@dates@skip@default=\skip167
+\@@@before@dates@skip@@default=\skip168
+\@@before@dates@skip@stretch=\skip169
+\@@@before@dates@skip@@stretch=\skip170
+\@@before@dates@skip@shrink=\skip171
+\@@@before@dates@skip@@shrink=\skip172
+\MSextraHmargin=\skip173
+\MSextraVmargin=\skip174
+\c@kwdcounter=\count94
+\@fulladdheight=\skip175
+\@fulladddepth=\skip176
+\@fulladdbox=\box26
+\c@notecounter=\count95
+\tf@biblio=\read1
+\@kwhwidth=\skip177
+\@kwtwidth=\skip178
+\afterkwdskip=\skip179
+\@rottabcapwidth=\skip180
+\tabnotewidth=\skip181
+\beforebiblioskip=\skip182
+\afterbiblioskip=\skip183
+\c@rmaabib=\count96
+\c@plate=\count97
+\c@plateloop=\count98
+\c@figplatei=\count99
+\c@figplateii=\count100
+\c@figplateiii=\count101
+\c@figplateiv=\count102
+\c@figplatev=\count103
+\c@figplatevi=\count104
+\c@figplatevii=\count105
+\c@figplateviii=\count106
+\c@figplateix=\count107
+\c@figplatex=\count108
+\c@figplatexi=\count109
+\c@figplatexii=\count110
+\c@figplatexiii=\count111
+\c@figplatexiv=\count112
+\c@figplatexv=\count113
+\c@IonStage=\count114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
+\pltopsep=\skip184
+\plpartopsep=\skip185
+\plitemsep=\skip186
+\plparsep=\skip187
+\pl@lab=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count115
+\pfg@scount=\count116
+\pfg@temp=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment') Include comment 'comment' (./ms.aux)
+\openout1 = `ms.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen121
+\scratchbox=\box27
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen122
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\@indexfile=\write5
+\openout5 = `ms.idx'.
+
+
+Writing index file ms.idx
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 103.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 103.
+
+Class rmaa Warning: No Spanish abstract (resumen) specified - if you do not spe
+ak Spanish, this will be translated by the editors.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 103.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 103.
+Missing character: There is no â in font cmti10!
+Missing character: There is no € in font cmti10!
+Missing character: There is no ¢ in font cmti10!
+Class rmaa Info: Calling @outputaddressesifnecessary on input line 138.
+[1
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+(./ms.aux) ) 
+Here is how much of TeX's memory you used:
+ 3552 strings out of 495059
+ 48272 string characters out of 3182030
+ 117977 words of memory out of 3000000
+ 6689 multiletter control sequences out of 15000+200000
+ 7667 words of font info for 27 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,8n,24p,238b,373s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti9.pfb>
+Output written on ms.pdf (1 page, 135015 bytes).
+PDF statistics:
+ 56 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
