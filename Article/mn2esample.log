@@ -1,0 +1,403 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.8.4)  4 OCT 2012 15:44
+entering extended mode
+ %&-line parsing enabled.
+**mn2esample.tex
+(./mn2esample.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./mn2e.cls
+Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
+Document Style `MN' v2.2, released 2001 February 20
+\math@groups=\toks14
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 223.
+\symbmisymbols=\mathgroup4
+\symUPM=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `UPM' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 260.
+\symAMSa=\mathgroup6
+\SFB@measure=\dimen102
+\realparindent=\skip41
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\@indentskip=\skip42
+\smallindent=\skip43
+\@footindent=\skip44
+\@leftskip=\skip45
+\c@dummy=\count85
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count86
+)
+\c@table=\count87
+\c@figure=\count88
+\mathindent=\dimen103
+)
+No file mn2esample.aux.
+\openout1 = `mn2esample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    Try loading font information for U+eur on input line 57.
+(/usr/share/texmf-texlive/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2009/06/22 v3.00 Euler Roman
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+$[]$ []\OT1/cmr/m/n/8 E-mail: email@address (AVR); oth-ere-mail@otheraddress
+ []
+
+
+Package natbib Warning: Citation `b7' on page 1 undefined on input line 85.
+
+
+Package natbib Warning: Citation `b5' on page 1 undefined on input line 85.
+
+
+Package natbib Warning: Citation `b6' on page 1 undefined on input line 85.
+
+
+Package natbib Warning: Citation `b15' on page 1 undefined on input line 85.
+
+
+Package natbib Warning: Citation `b9' on page 1 undefined on input line 85.
+
+
+Package natbib Warning: Citation `b10' on page 1 undefined on input line 93.
+
+
+Package natbib Warning: Citation `b25' on page 1 undefined on input line 93.
+
+
+Package natbib Warning: Citation `b23' on page 1 undefined on input line 93.
+
+
+Package natbib Warning: Citation `b24' on page 1 undefined on input line 93.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 96.
+
+Package natbib Warning: Citation `b20' on page 1 undefined on input line 98.
+
+
+Package natbib Warning: Citation `b13' on page 1 undefined on input line 99.
+
+
+Package natbib Warning: Citation `b12' on page 1 undefined on input line 101.
+
+
+Package natbib Warning: Citation `b20' on page 1 undefined on input line 102.
+
+
+Package natbib Warning: Citation `b15' on page 1 undefined on input line 103.
+
+
+Underfull \vbox (badness 7963) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `b21' on page 1 undefined on input line 168.
+
+
+Package natbib Warning: Citation `b22' on page 1 undefined on input line 168.
+
+
+Package natbib Warning: Citation `b9' on page 1 undefined on input line 178.
+
+
+Package natbib Warning: Citation `b6' on page 1 undefined on input line 182.
+
+
+Package natbib Warning: Citation `b19' on page 1 undefined on input line 182.
+
+
+Package natbib Warning: Citation `b21' on page 1 undefined on input line 185.
+
+
+Package natbib Warning: Citation `b11' on page 1 undefined on input line 188.
+
+
+Package natbib Warning: Citation `b12' on page 1 undefined on input line 188.
+
+
+LaTeX Warning: Reference `firstpage' on page 1 undefined on input line 191.
+
+
+LaTeX Warning: Reference `lastpage' on page 1 undefined on input line 191.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 191.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
+ [1
+
+
+]
+
+Package natbib Warning: Citation `b8' on page 2 undefined on input line 211.
+
+
+Package natbib Warning: Citation `b2' on page 2 undefined on input line 214.
+
+
+Package natbib Warning: Citation `b3' on page 2 undefined on input line 219.
+
+
+Package natbib Warning: Citation `b16' on page 2 undefined on input line 249.
+
+
+Package natbib Warning: Citation `b9' on page 2 undefined on input line 250.
+
+
+Package natbib Warning: Citation `b4' on page 2 undefined on input line 255.
+
+
+Package natbib Warning: Citation `b5' on page 2 undefined on input line 258.
+
+
+Package natbib Warning: Citation `b19' on page 2 undefined on input line 258.
+
+
+Package natbib Warning: Citation `b17' on page 2 undefined on input line 259.
+
+
+LaTeX Warning: Reference `firstpage' on page 2 undefined on input line 260.
+
+
+LaTeX Warning: Reference `lastpage' on page 2 undefined on input line 260.
+
+[2]
+
+Package natbib Warning: Citation `b3' on page 3 undefined on input line 271.
+
+
+Package natbib Warning: Citation `b3' on page 3 undefined on input line 271.
+
+
+Package natbib Warning: Citation `b16' on page 3 undefined on input line 285.
+
+
+Package natbib Warning: Citation `b3' on page 3 undefined on input line 304.
+
+
+Package natbib Warning: Citation `b3' on page 3 undefined on input line 304.
+
+
+Package natbib Warning: Citation `b12' on page 3 undefined on input line 314.
+
+
+Package natbib Warning: Citation `b9' on page 3 undefined on input line 330.
+
+
+Package natbib Warning: Citation `b7' on page 3 undefined on input line 336.
+
+
+Package natbib Warning: Citation `b5' on page 3 undefined on input line 338.
+
+
+Package natbib Warning: Citation `b15' on page 3 undefined on input line 338.
+
+
+Package natbib Warning: Citation `b9' on page 3 undefined on input line 339.
+
+
+Package natbib Warning: Citation `b9' on page 3 undefined on input line 341.
+
+
+Package natbib Warning: Citation `b20' on page 3 undefined on input line 344.
+
+
+Package natbib Warning: Citation `b9' on page 3 undefined on input line 350.
+
+
+Package natbib Warning: Citation `b10' on page 3 undefined on input line 363.
+
+
+Package natbib Warning: Citation `b25' on page 3 undefined on input line 367.
+
+
+Package natbib Warning: Citation `b5' on page 3 undefined on input line 371.
+
+
+Package natbib Warning: Citation `b19' on page 3 undefined on input line 371.
+
+
+Package natbib Warning: Citation `b21' on page 3 undefined on input line 375.
+
+
+LaTeX Warning: Reference `firstpage' on page 3 undefined on input line 382.
+
+
+LaTeX Warning: Reference `lastpage' on page 3 undefined on input line 382.
+
+[3]
+
+Package natbib Warning: Citation `b20' on page 4 undefined on input line 385.
+
+
+Package natbib Warning: Citation `b20' on page 4 undefined on input line 388.
+
+
+Package natbib Warning: Citation `b14' on page 4 undefined on input line 388.
+
+
+Package natbib Warning: Citation `b4' on page 4 undefined on input line 388.
+
+
+Package natbib Warning: Citation `b1' on page 4 undefined on input line 388.
+
+
+Package natbib Warning: Citation `b14' on page 4 undefined on input line 394.
+
+
+Package natbib Warning: Citation `b6' on page 4 undefined on input line 399.
+
+
+Package natbib Warning: Citation `b15' on page 4 undefined on input line 410.
+
+
+Package natbib Warning: Citation `b15' on page 4 undefined on input line 416.
+
+
+Package natbib Warning: Citation `b9' on page 4 undefined on input line 416.
+
+
+Package natbib Warning: Citation `b5' on page 4 undefined on input line 419.
+
+
+Package natbib Warning: Citation `b20' on page 4 undefined on input line 437.
+
+
+Package natbib Warning: Citation `b4' on page 4 undefined on input line 438.
+
+
+Package natbib Warning: Citation `b6' on page 4 undefined on input line 449.
+
+
+Package natbib Warning: Citation `b18' on page 4 undefined on input line 451.
+
+
+Package natbib Warning: Citation `b6' on page 4 undefined on input line 456.
+
+
+Package natbib Warning: Citation `b15' on page 4 undefined on input line 457.
+
+
+LaTeX Warning: Reference `firstpage' on page 4 undefined on input line 464.
+
+
+LaTeX Warning: Reference `lastpage' on page 4 undefined on input line 464.
+
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `firstpage' on page 5 undefined on input line 464.
+
+
+LaTeX Warning: Reference `lastpage' on page 5 undefined on input line 464.
+
+[5]
+
+Package natbib Warning: Citation `b13' on page 6 undefined on input line 465.
+
+
+Package natbib Warning: Citation `b15' on page 6 undefined on input line 470.
+
+
+Package natbib Warning: Citation `b12' on page 6 undefined on input line 495.
+
+
+Package natbib Warning: Citation `b9' on page 6 undefined on input line 512.
+
+
+LaTeX Warning: Reference `firstpage' on page 6 undefined on input line 587.
+
+
+LaTeX Warning: Reference `lastpage' on page 6 undefined on input line 587.
+
+[6]
+
+Package natbib Warning: Citation `b11' on page 7 undefined on input line 594.
+
+
+Package natbib Warning: Citation `b15' on page 7 undefined on input line 627.
+
+
+Package natbib Warning: Citation `b15' on page 7 undefined on input line 627.
+
+
+LaTeX Warning: Reference `appenfig' on page 7 undefined on input line 633.
+
+
+Package natbib Warning: Citation `b22' on page 7 undefined on input line 639.
+
+
+Package natbib Warning: There were undefined citations.
+
+
+LaTeX Warning: Reference `firstpage' on page 7 undefined on input line 648.
+
+
+LaTeX Warning: Reference `lastpage' on page 7 undefined on input line 648.
+
+[7] (./mn2esample.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 954 strings out of 495062
+ 10296 string characters out of 1182645
+ 75884 words of memory out of 3000000
+ 4173 multiletter control sequences out of 15000+50000
+ 17559 words of font info for 61 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 31i,17n,34p,677b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on mn2esample.dvi (7 pages, 41784 bytes).

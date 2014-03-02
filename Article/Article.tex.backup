@@ -1,0 +1,438 @@
+% mn2esample.tex
+%
+% v2.1 released 22nd May 2002 (G. Hutton)
+%
+% The mnsample.tex file has been amended to highlight
+% the proper use of LaTeX2e code with the class file
+% and using natbib cross-referencing. These changes
+% do not reflect the original paper by A. V. Raveendran.
+%
+% Previous versions of this sample document were
+% compatible with the LaTeX 2.09 style file mn.sty
+% v1.2 released 5th September 1994 (M. Reed)
+% v1.1 released 18th July 1994
+% v1.0 released 28th January 1994
+
+\documentclass[useAMS,usenatbib]{mn2e}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[a4paper,breaklinks,dvipdfm]{hyperref}
+
+% If your system does not have the AMS fonts version 2.0 installed, then
+% remove the useAMS option.
+%
+% useAMS allows you to obtain upright Greek characters.
+% e.g. \umu, \upi etc.  See the section on "Upright Greek characters" in
+% this guide for further information.
+%
+% If you are using AMS 2.0 fonts, bold math letters/symbols are available
+% at a larger range of sizes for NFSS release 1 and 2 (using \boldmath or
+% preferably \bmath).
+%
+% The usenatbib command allows the use of Patrick Daly's natbib.sty for
+% cross-referencing.
+%
+% If you wish to typeset the paper in Times font (if you do not have the
+% PostScript Type 1 Computer Modern fonts you will need to do this to get
+% smoother fonts in a PDF file) then uncomment the next line
+% \usepackage{Times}
+
+%%%%% AUTHORS - PLACE YOUR OWN MACROS HERE %%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[]{GAIAS is view on the metallicity of the Milky Way Galaxy}
+\author[J. G. Fern\'andez-Trincado & J. N. Garavito-Camargo]{
+J. G. Fern\'andez-Trincado,$^{1,3}$\thanks{Email: jfernandez@cida.ve}
+J. N. Garavito-Camargo,$^{2}$\thanks{Email: jngaravitoc@unal.edu.co}
+,$^{4}$
+C. E. Mateu,$^{1,5}$ 
+\newauthor
+E. Moreno,$^{4}$ B. Pichardo,$^{4}$   
+and R. Zinn $^{3}$
+\\
+$^{1}$Institute Utinam, CNRS UMR6213, Universit\'e de Franche-Comt\'e, OSU THETA de Franche-Comt\'e-Bourgogne, Besan\c{c}on, France
+$^{2}$\\
+$^{3}$Centro de Investigaciones de Astronom\'ia, AP 264, M\'erida 5101-A, Venezuela\\
+$^{4}$Escribi afiliacion Francesca\\
+$^{5}$Escribi afiliacion Daisuke\\
+$^{6}$Escribi afiliacion \\
+$^{7}$Visiting Scholar at Instituto de Astronom\'ia, Universidad Nacional Aut\'onoma de M\'exico, Apdo. Postal 877, 22860, Ensenada, Baja California, Mexico
+
+} 
+
+\begin{document}
+
+\date{01 January 2014}
+
+\pagerange{\pageref{firstpage}--\pageref{lastpage}} \pubyear{2002}
+
+\maketitle
+
+\label{firstpage}
+
+\begin{abstract}
+We report 537 new photometric candidates to be Quasars (hereafter QSOs) in an area
+of 2.5 sq deg for the survey 10-years in celestial equator. The survey was carried out
+during 1998 to 2008 with observations obtained
+with the QUEST mosaic camera at the 1 m Schmidt telescope at the 
+Venezuela National Observatory of Llano del Hato. The area studied
+is part of a photometric catalog in the bands
+V, R, I Johnson and contains approximately nine
+million point sources  in $\sim1080 $ sq deg in the celestial equator (\citet{b2}). QSOs sample
+was selected using criteria variability in every filter and the first-order
+structure functions (\citet{b1}). Part of this region is covered by Sloan Digital 
+Sky Survey (SDSS) and we
+recover our criteria QSOs spectrocopically reported by the Data Release 9 (DR9). From a homogeneous sample of QSOs candidates,
+we expect to detect about 870480 photometric candidates to QSOs in the entire 
+catalog and regions not covered so far by SDSS.
+\end{abstract}
+
+\begin{keywords}
+quasars: point objects -- surveys -- variability.
+\end{keywords}
+
+\section{Introduction}
+
+The catalog of the variability survey of Centro de Investigaciones de Astronom\'ia (CVS-CIDA)
+contains photometric data in the filters V, R, I of $\sim 9\times10^6$ point
+sources (\citet{b2}), these data correspond to multiepoch observations for
+10 years (1998-2008). The catalog covers a total 
+area of 1080 square degrees in the celestial equatorial between: $60\textordmasculine \leq \alpha_{J2000} \leq 150 \textordmasculine$ 
+and $\delta_{J200}=\pm 6\textordmasculine $, this is illustrated in Figure \ref{distribution}. With 
+the information in this catalog the following has been studied: (\emph{i}) part of the thin and thick disk (\citet{b5})
+of the Milky Way (MW), stellar streams structures in the halo of the 
+MW at high and low galactic latitudes with the variability 
+survey of RR Lyrae stars (\citet{b4}, \citet{b6}), (\emph{ii}) the variability survey of Orion OB1 (\citet{b7}, \citet{b8}), 
+(\emph{iii}) Disk Evolution in the Orion OB1 Association (\citet{b9}), 
+(\emph{iv}) Early stages in the evolution of protoplanetary disks (\citet{b10}),
+(\emph{v}) a Large-Scale Optical-Near Survey for Brown Dwarfs and Very Low
+Mass Stars in the Orion OB1 Association (\citet{b11}). However, despite the sheer
+quality of this work and its scientific importance, in the area of 
+extragalactic astronomy (particularly in the search for QSOs), this region
+of the sky has not been fully studied in depth and the CVS-CIDA has not
+been analyzed with this focus.\\
+
+We now propose a census of photometric candidates 
+to QSOs in the CVS-CIDA, which combine the search criteria of QSOs by 
+periodic variability (\citet{b1}) with the intrinsic variability proposed by \citet{b12}, 
+we analyzed 2.5 sq deg of the CVS-CIDA, between: $85\textordmasculine \leq \alpha_{J2000} \leq 87.5\textordmasculine$ 
+and $-1.5\textordmasculine \leq \delta_{J2000} \leq -0.5\textordmasculine$.
+The technique used 14,719 point sources has enabled the selection
+of an initial sample of 537 sources which do not show periodic variability.
+Our method shows effectiveness of 10 percent to recover QSOs reported
+by SDSS DR9, in the areas where both scans overlap ($\sim$1.5 sq deg). In
+future works, we will conduct a spectroscopic survey of 537 candidates to 
+QSOs, this survey will be in the 1m Schmidt telescope located at the 
+Venezuelan National Astronomical Observatory, Llano del Hato, M\'erida, 
+Venezuela. This telescope is equipped with a 3.4$\textordmasculine$ 
+objetive-prism (reciprocal dispersion $\sim$ 25 \AA{} arcsec$^{-1}$ in 
+H$_{\alpha}$ at rest, \citet{b13}) and a 4$\times$4 CCD mosaic 
+covering $2.3\textordmasculine \times 3.5\textordmasculine$
+on the sky. The CCDs are 2048 $\times$ 2048 LORAL devises with 15$\mu$m pixels.
+We classify the sample into two groups: the first group whose
+spectra are consistent with the known spectrum of QSOs and the second
+group consists of those sources whose spectra do not match those of QSOs.\\
+
+
+This paper is organized as follows: 
+\begin{itemize}
+ \item Section 2: CIDA Variability survey
+ \item Section 3: Description of the methods: first and second variability criteria and
+ third criterion the first-order structure functions.
+ \item Section 4: Results and Discussion 
+ \item Section 5: Conclusions
+\end{itemize}
+
+
+\begin{center}
+\begin{figure}
+%\resizebox{\hsize}{!}{\includegraphics[clip=true]{SpatialDistribution.eps}}
+\includegraphics[width=85mm]{SpatialDistribution.eps}
+%\vspace{302pt}
+ \caption{Spatial distribution of CVS-CIDA (red grid).
+ The region analyzed in the present work (2.5 sq deg) is represented by the green (14,719 point sources) area and black points
+ corresponds to 6050 QSOs confirmed spectrocopically by SDSS-DR9.}
+ \label{distribution}
+\end{figure}
+\end{center}
+
+\section[]{CIDA VARIABILITY SURVEY}
+
+\subsection{Description of the observations}
+
+The catalog of variability survey covers a total area of 1080 sq deg, 
+these observations 
+were obtained between 1998 and 2008 with the QUEST camera and 
+the 1.0/1.5 m J\textasciidieresis{u}rgen Stock Schmidt telescope 
+located at the 
+Venezuelan National Astronomical Observatory, Llano del Hato,
+M\'erida, Venezuela. The observations were obtained in drift-scan mode
+in the celestial equator, for a more detailed description of the camera
+and the drift-scanning technique see \citet{b14}. 
+
+The catalog of variability survey was completed in previous work by
+\citet{b6} and \citet{b15}. The reduction techniques are
+essentially the same as those in \citet{b3}.
+
+
+\subsection{Extinction}
+
+We analyzed 2.5 sq deg of the catalog of variability survey. Data in this
+region is affected by the spatially variable reddening (0.18 mag $\leq E(B-V)\leq$1.6 mag) 
+at galactic latitude below $\sim$14.3 degree. The \citet{b16} 
+dust maps were  
+used to correct the V-, R- and I- photometric bands of this region by the 
+galactic extinction $A_V, A_R$ and $A_I$.
+
+
+\section{DESCRIPTION OF THE METHODS}
+
+\subsection{Color-Color Diagram}
+
+
+Escribir luego.
+
+\subsection{First criterion: Variability}
+
+The variability criterion considers whether each point
+source CVS-CIDA presents periodic or aperiodic 
+changes in its brightness over time. This 
+variation is measured by the index of variability ($V_{Index}$), and
+is given by the sum of the number times ($N_0$) the
+brightness of each source was measured over the maximum number ($N_t$)
+of times a source was measured about 3 arcmin around the source of interest
+in each filter and weighted by the 
+variability of probability $P(\chi^2_{\nu})$ in each filter.
+
+\begin{equation}
+V_{Index}\equiv(\frac{\sum^3_{j=1}\left(N_{0}/N_{T}\right)_{j}\times P(\chi^2_{\nu})_{j}}
+{\sum^3_{j=1}\left(N_{0}/N_{T}\right)_{j}}\right) \times 100, 
+\label{eq1}
+\end{equation}
+
+ With $j=1,2,3$ as the index over the three different filters used in the
+survey ($V,R,I$). The individual $P(\chi^2_{\nu})_{j}$ values in the 
+CVS-CIDA were calculated using the same methods used in 
+\citet{b3}, ie. using the $\chi^2$ probability function.
+In the CVS-CIDA all sources with $[P(\chi^2_{\nu})_{j} \leq 0.001]$
+has a 99\% confidence level of being variable.
+
+
+The equation \ref{eq1} is similar to the global confidence
+level (GCL) used by \citet{b1} to select the sample of 
+QSOs. We applied this equation iteratively on 14,719 point sources (green are in
+Figure \ref{distribution}) corresponding to the region of interest 
+(2.5 sq deg). Figure \ref{index} shows the cumulative
+frequency distribution of the 
+$V_{Index}$ for 14,719 point sources. We selected all sources with a 
+$V_{Index} \geq 66.5$, reducing the initial sample by 81.81\%, recovering 
+2678 possible candidates for QSOs. The $V_{Index}=66.5$ was
+fixed at that value, since it is to be consistent with 
+values of $V_{Index}$ of QSOs reported in the SDSS-DR9 
+and recovered by our survey. This parameter ($V_{Index}$) is an 
+important factor that allows a first filter in the 
+total sample, separating the sources which are not variable,
+regarding sources having a high $V_{Index}$. 
+
+\subsection{Second criterion: Variability}
+
+The second criterion is directly related to the time series
+of observations of each point source of CVS-CIDA. The following
+equations are similar to those used by \citet{b1}, except
+the equation \ref{eq2}  that is weighty
+($N_{0}/N_{T}$), see this in more detail in 
+figure 5 of the article of \citet{b6}.
+
+
+\begin{equation}
+V_{j}\equiv\frac{\sum^3_j \left(N_{0}/N_{T}\right)_{j}\times\left(\sigma_{T}/\sigma_j\right)^2}{\sum^3_{j}\left(N_{0}/N_{T}\right)_{j}},
+\label{eq2}
+\end{equation}
+
+In the equation \ref{eq2}, $\sigma_{T}$ is the total standard deviation
+
+
+
+\begin{equation}
+\Delta m_{j}=\frac{\sigma_{T}}{\Delta \langle m \rangle_{\rm{max}}}
+\end{equation}
+
+\begin{equation}
+Q_{i}\equiv\frac{\sum^3_{j}\left(N_{0}/N_{T}\right)_{j}\times \left(V_{j}/\Delta m_{j}\right)}{\sum^3_j\left(N_{0}/N_{T}\right)_{j}}           
+\end{equation}
+
+
+
+\subsection{Third criterion: first-order structure functions}
+
+
+
+\begin{center}
+\begin{figure}
+%\resizebox{\hsize}{!}{\includegraphics[clip=true]{SpatialDistribution.eps}}
+\includegraphics[width=85mm]{muestratotal.eps}
+%\vspace{302pt}
+ \caption{Normalized distribution index of variability ($V_{Index}$) of 14,719 point sources CVS-CIDA. The 
+ red points represent the frequency accumulated of the distribution and the
+ blue dashed line is the cutting of the sample in $V_{Index}\geq66.5$.}
+ \label{index}
+\end{figure}
+\end{center}
+
+
+
+\begin{center}
+\begin{figure}
+%\resizebox{\hsize}{!}{\includegraphics[clip=true]{SpatialDistribution.eps}}
+\includegraphics[width=85mm]{Qi.eps}
+%\vspace{302pt}
+ \caption{$Q_{i}$ distributions for 2678 point sources variables ($V_{Index}\geq 66.5$).
+ In blue, the first candidates to QSOs (2102 point sources) with $Q_{i}>2$
+ and in black, 576 point sources (variable stars) with $Q_{i}\leq2$. The 
+red dashed line corresponds to $Q_{i}=2$, limit which separates
+the bimodal distribution. 
+ }
+ \label{Qi}
+\end{figure}
+\end{center}
+
+Esto esta bien:
+\begin{equation}
+ M^{k}_{i,j}(\Delta{}t_{i,j})\equiv \left\langle \sqrt{\frac{\pi}{2}} |\Delta{}m_{i,j}| - \sqrt[]{\sigma_{i}^2+\sigma_{j}^2} \right\rangle _{\Delta{}t}
+\end{equation}
+
+
+
+
+
+\begin{equation}
+ M^{k}_{i,j}(\Delta{t_{i,j}} \mid A_{k}, \gamma{}_{k})\equiv A_{k} \left( \frac{\Delta{t_{i,j}}}{1 \rm{yr}} \right)^{\gamma{}_{k}}
+\end{equation}
+
+
+
+\begin{equation}
+A_{T}=\frac{\sum^3_{k}\left(N_{0}/N_{T}\right)_{k}\times A_{k}}{\sum^3_{k}\left(N_{0}/N_{T}\right)_{k}}           
+\end{equation}
+
+\begin{equation}
+\gamma_{T}=\frac{\sum^3_{k}\left(N_{0}/N_{T}\right)_{k}\times \gamma_{k}}{\sum^3_k\left(N_{0}/N_{T}\right)_{k}}           
+\end{equation}
+
+
+
+\section{RESULTS AND DISCUSSION}
+
+\section{CONCLUSIONS}
+
+\section*{Acknowledgments}
+
+This publication makes use of
+data obtained with the instruments of the National
+Astronomical Observatory of Venezuela, located in
+Llano del Hato, M\'erida, Venezuela, and administered by CIDA, 
+entity attached to the Ministry
+of Popular Power for Science, Technology and
+Innovation. We thank the scientific assistants, observers 
+and technical staff in the acquisition of this data,
+for the excellent work done and for allowing us to
+present some results in advance of publication.
+
+
+
+
+\begin{thebibliography}{99}
+
+
+\bibitem[\protect\citeauthoryear{Baltay et al.}{2002}]{b14} Baltay, C. et al. 2002,
+PASP, 114, 780
+
+\bibitem[\protect\citeauthoryear{Brice\~no et al. 2005}{}]{b7} Brice\~no, C. et al. 2005,
+AJ, 907, 926 
+
+\bibitem[\protect\citeauthoryear{Brice\~no et al. 2011}{}]{b8} Brice\~no, C. et al. 2011,
+RMxAC, 225, 226
+
+\bibitem[\protect\citeauthoryear{Bongiovanni et al. 2005}{}]{b13} Bongiovanni, A. et al. 2005,
+MNRAS, 930, 940
+
+\bibitem[\protect\citeauthoryear{Calvet et al. 2005}{}]{b9} Calvet, N. et al. 2005,
+AJ, 935, 946
+
+\bibitem[\protect\citeauthoryear{Downes et al. 2009}{}]{b2} Downes, J. J. et al. 2009,
+RevMexAA, 60, 61
+
+\bibitem[\protect\citeauthoryear{Downes et al. 2008}{}]{b11} Downes, J. J. et al. 2008,
+AJ, 51, 66
+
+\bibitem[\protect\citeauthoryear{Downes et al.}{2012}]{b15} Downes, J. J. et al. 2002,
+in preparation
+
+\bibitem[\protect\citeauthoryear{Hern\'andez et al. 2009}{}]{b10} Hern\'andez, J. et al. 2009,
+RMxAC, 68, 69
+
+\bibitem[\protect\citeauthoryear{Mateu et al. 2009}{}]{b5} Mateu, C. et al. 2009,
+ApJ, 4412, 4423 
+
+\bibitem[\protect\citeauthoryear{Mateu et al.}{2012}]{b6} Mateu, C. et al. 2012,
+MNRAS, 4599, 4623 
+
+\bibitem[\protect\citeauthoryear{Rengstorf et al.}{2006}]{b1} Rengstorf, A.W. et al. 2006,
+AJ, 1923, 1933
+
+\bibitem[\protect\citeauthoryear{Schmidt et al.}{2010}]{b12} Schmidt, K. B. et al. 2010,
+ApJ, 1194, 1208
+
+\bibitem[\protect\citeauthoryear{Schlegel, Finkbeiner \& Davis}{1998}]{b16} Schlegel, D. J., Finkbeiner D. P.,
+Davis M., 1998, ApJ, 500, 525.
+
+\bibitem[\protect\citeauthoryear{Vivas et al.}{2004}]{b3} Vivas, A. K. et al. 2004,
+AJ, 1158, 1175
+
+\bibitem[\protect\citeauthoryear{Vivas \& Zinn 2006}{}]{b4} Vivas, A. K. \& Zinn, R., 2006,
+AJ, 714, 728
+
+\label{lastpage}
+
+\end{document}
+
+
+
+%\begin{table*}
+% \centering
+% \begin{minipage}{140mm}
+%  \caption{Data on the RV Tauri stars detected by {\it IRAS}.}
+%  \begin{tabular}{@{}llrrrrlrlr@{}}
+%  \hline
+%   Name     &            & \multicolumn{4}{c}{Flux density (Jy)%
+%  \footnote{Observed by {\em IRAS}.}}\\
+%   Variable & {\it IRAS} & 12$\,\umu$m & 25$\,\umu$m & 60$\,\umu$m
+%     & 100$\,\umu$m & Sp. & Period & Light- & $T_0\,(\rmn{K})$ \\
+%        &  &  &  &  &  & group & (d) & curve \\
+%        &  &  &  &  &  &       &     & type  \\
+% \hline
+% TW Cam & 04166$+$5719 & 8.27 & 5.62 & 1.82 & $<$1.73 & A & 85.6 & a & 555 \\
+% RV Tau & 04440$+$2605 & 22.53 & 18.08 & 6.40 & 2.52 & A & 78.9 & b & 460 \\
+% DY Ori & 06034$+$1354 & 12.44 & 14.93 & 4.12 & $<$11.22 & B & 60.3 &  & 295 \\
+% CT Ori & 06072$+$0953 & 6.16 & 5.57 & 1.22 & $<$1.54 & B & 135.6 &  & 330 \\
+% SU Gem & 06108$+$2734 & 7.90 & 5.69 & 2.16 & $<$11.66 & A & 50.1 & b & 575 \\
+% UY CMa & 06160$-$1701 & 3.51 & 2.48 & 0.57 & $<$1.00 & B & 113.9 & a & 420 \\
+% U Mon  & 07284$-$0940 & 124.30 & 88.43 & 26.28 & 9.24 & A & 92.3 & b & 480 \\
+% AR Pup & 08011$-$3627 & 131.33 & 94.32 & 25.81 & 11.65 & B & 75.0 & b & 450 \\
+% IW Car & 09256$-$6324 & 101/06 & 96.24 & 34.19 & 13.07 & B & 67.5 & b & 395 \\
+% GK Car & 11118$-$5726 & 2.87 & 2.48 & 0.78 & $<$12.13 & B & 55.6 &  & 405 \\
+% RU Cen & 12067$-$4508 & 5.36 & 11.02 & 5.57 & 2.01 & B & 64.7 &  & 255 \\
+% SX Cen & 12185$-$4856 & 5.95 & 3.62 & 1.09 & $<$1.50 & B & 32.9 & b & 590 \\
+% AI Sco & 17530$-$3348 & 17.68 & 11.46 & 2.88 & $<$45.62 & A & 71.0 & b & 480 \\
+% AC Her & 18281$+$2149 & 41.47 & 65.33 & 21.12 & 7.79 & B & 75.5 & a & 260 \\
+% R Sct  & 18448$-$0545 & 20.88 & 9.30 & 8.10 & $<$138.78 & A & 140.2 & a \\
+% R Sge  & 20117$+$1634 & 10.63 & 7.57 & 2.10 & $<$1.66 & A & 70.6 & b & 455 \\
+% V Vul  & 20343$+$2625 & 12.39 & 5.72 & 1.29 & $<$6.96 & A & 75.7 & a & 690\\
+%\hline
+%\end{tabular}
+%\end{minipage}
+%\end{table*}
+
+
