@@ -1,0 +1,14 @@
+Cookbook
+
+1. Los datos de la simulacion estan en ..data/disk1.dat/
+2. Se usa el codigo Metalicites.py que selecciona las estrellas del RC, vistas por GAIA con V<16.5 (check this number)
+   Este codigo imprime un archivo en data/MetalicitiesSPH.dat con con la estrellas del RC
+3. Hay que calcular los errores de GAIA.
+
+la metalicidad afectada por los errores de GAIA se halla en el codigo "Gaia-errors-Jan2013.f" que esta en /Software/Kawata/ubgaiaerr
+dentro de este codigo el error en la metalicidad se denota apo(3) y ap(3) sin errores 
+la ecuacion del calculo de errores esta en la linea 286 
+
+el codigo del calculo de errores esta funcionado y esta en /GAIA13/codes
+
+ojo con el cambio de coordenadas.

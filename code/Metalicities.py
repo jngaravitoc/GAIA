@@ -25,7 +25,7 @@ flagplot=1
 # number of particle
 nset=42075
 # full data
-inputfile='../simdata/disk1.dat'
+inputfile='../data/disk1.dat'
 # number of particle
 nset=4207480
 
@@ -196,20 +196,15 @@ valpos=1000.0*valpos/4.74/(rados*1000.0)
 vdelos=1000.0*vdelos/4.74/(rados*1000.0)
 """
 # test ASCII outputt
-f=open('MetalictiesSPH.dat','w')
+f=open('../data/MetalictiesSPH.dat','w')
 i=0
+print >>f, ("# X  Y  Z  VX  VY VZ AVOS FEHOS AGES")
 while i < ns:
- print >>f, "%f %f %f %f %f %f %f %f" %(xos[i] - 8.0 , yos[i],zos[i],vxos[i] ,vyos[i],vzos[i], avos[i], fehos[i])
+ print >>f, "%f %f %f %f %f %f %f %f %f" %(xos[i] - 8.0 , yos[i],zos[i],vxos[i] ,vyos[i],vzos[i], avos[i], fehos[i], ages[i])
  i+=1
 f.close()
 
-f2=open('age.dat', 'w')
-i=0
-while i < ns:
- print >> f2, '%f2' %(ages[i])
- i+=1
-f2.close()
-
+"""
 plt.figure(1, figsize=(9.5, 9))
 plt.hist2d(xos - 8.0, yos, bins=290)
 plt.title('$\mathrm{MW}$ $\mathrm{RC}$ $\mathrm{Densities}$', fontsize=28)
@@ -240,11 +235,10 @@ plt.xlabel('$\mathrm{X(Kpc)}}$', fontsize=28)
 plt.title('$\mathrm{Age}$ $\mathrm{distribution}$', fontsize=28)
 plt.savefig('agedistribution.png')
 plt.close()
-
+"""
 
 # distance in parsec
 #diss=rads*1000.0
-"""
 # binary data for UB Fortran code
 if flagub:
   f=FortranFile('ubgaiaein.bin',mode='w')
@@ -253,11 +247,11 @@ if flagub:
   i=0
   while i < ns:
     staro=np.array([alpos[i],delos[i],rados[i],valpos[i],vdelos[i],vrados[i]
-     ,fehos[i],avos[i],vicoleos[i],vmageos[i]])
+     ,fehos[i],avos[i],vicoleos[i],vmageos[i]], ages[i])
     f.writeReals(staro,prec='d')
     i+=1
   f.close()
-
+"""
 if flagplot:
 # test plot
 # top panels
